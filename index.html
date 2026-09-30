@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="새로운 것을 배우고 일상의 아이디어를 만들어가는 홍길동의 자기소개 페이지입니다.">
+  <title>홍길동 · About me</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 이름, 소개, 관심사, 이메일을 본인의 정보로 바꿔보세요. -->
+  <div class="page">
+    <header class="header">
+      <a class="logo" href="#home" aria-label="처음으로">길동<span>.</span></a>
+      <a class="header-link" href="#contact">인사 나누기 <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="home">
+      <section class="intro" aria-labelledby="intro-title">
+        <div class="intro-copy">
+          <p class="eyebrow"><span class="dot" aria-hidden="true"></span> A LITTLE ABOUT ME</p>
+          <h1 id="intro-title">안녕하세요,<br><span>홍길동</span>입니다.</h1>
+          <p class="intro-text">작은 호기심에서 시작해<br>나만의 가능성을 넓혀가고 있어요.</p>
+          <a class="button" href="#about">조금 더 알아보기 <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="portrait" role="img" aria-label="초록색 배경에 웃는 얼굴 일러스트">
+          <span class="portrait-label">NICE TO MEET YOU!</span>
+          <div class="orbit" aria-hidden="true"></div>
+          <span class="spark spark-one" aria-hidden="true">✳</span>
+          <span class="spark spark-two" aria-hidden="true">✦</span>
+          <div class="face" aria-hidden="true">
+            <div class="eyes"><i></i><i></i></div>
+            <div class="smile"></div>
+          </div>
+          <span class="portrait-note">호기심을 잃지 않는 사람</span>
+        </div>
+      </section>
+
+      <section id="about" class="about" aria-labelledby="about-title">
+        <div class="section-heading"><span class="section-number">01 / ABOUT</span><h2 id="about-title">저를 소개할게요.</h2></div>
+        <div class="about-copy">
+          <p>새로운 것을 배우고, 배운 것을 직접 만들어보는 일을 좋아합니다. 아직 모르는 것이 많지만, 매일 조금씩 성장하는 과정을 즐기고 있어요.</p>
+          <p>복잡한 것 속에서 단순한 답을 찾고, 작은 아이디어를 현실로 만드는 사람이 되고 싶습니다.</p>
+        </div>
+      </section>
+
+      <section class="interests" aria-labelledby="interests-title">
+        <div class="section-heading"><span class="section-number">02 / INTERESTS</span><h2 id="interests-title">이런 것을 좋아해요.</h2></div>
+        <div class="cards">
+          <article class="card"><span class="card-icon" aria-hidden="true">↗</span><h3>새로운 배움</h3><p>궁금한 것을 찾아보고<br>하나씩 알아가는 즐거움.</p><span class="tag">Learning</span></article>
+          <article class="card"><span class="card-icon" aria-hidden="true">&lt;/&gt;</span><h3>직접 만들기</h3><p>머릿속의 아이디어를<br>눈앞의 결과물로 만드는 일.</p><span class="tag">Creating</span></article>
+          <article class="card"><span class="card-icon" aria-hidden="true">✳</span><h3>일상의 발견</h3><p>산책과 음악, 그리고<br>평범한 하루 속 작은 영감.</p><span class="tag">Exploring</span></article>
+        </div>
+      </section>
+
+      <section id="contact" class="contact" aria-labelledby="contact-title">
+        <div><span class="section-number">03 / SAY HELLO</span><h2 id="contact-title">좋은 대화는 인사에서 시작하니까요.</h2><p>함께 나누고 싶은 이야기가 있다면 편하게 연락해 주세요.</p></div>
+        <!-- 아래 주소를 실제 이메일로 바꿔주세요. -->
+        <a class="email" href="mailto:hello@example.com">hello@example.com <span aria-hidden="true">↗</span></a>
+      </section>
+    </main>
+    <footer><span>© 2026 홍길동</span><span>조금씩, 꾸준히, 나답게.</span></footer>
+  </div>
+</body>
+</html>
